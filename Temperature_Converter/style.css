@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Merriweather&family=Raleway:ital@1&family=Ubuntu:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(rgb(47, 226, 202), rgb(4, 136, 85));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Chivo Mono', monospace;
+    font-size: 55px;
+    letter-spacing: 2px;
+    margin: 80px 0px;
+    color: white;
+    padding-top: 20px;
+    width: 850px;
+    height: 110px;
+    border: 2.2px solid #000000cc;
+    background-color: rgb(18, 185, 144);
+    border-radius: 15px;
+}
+
+.box {
+    opacity: 1;
+    padding: 29px 67px;
+    min-height: 75vh;
+    min-width: 40vw;
+    background-color: rgba(22, 96, 105, 0.603);
+    border-radius: 20px;
+    box-shadow: rgba(32, 179, 199, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+label {
+    padding: 0px 12px 0px 30px;
+    font-size: 35px;
+    font-size: 750;
+    font-weight: 550;
+    line-height: 78px;
+}
+
+
+input {
+    margin-right: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+
+select {
+    border: none;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+#label-edit {
+    width: 9vw;
+    height: 8vh;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 25px;
+    font-size: 28px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+}
+
+#type {
+    width: 10vw;
+    height: 8vh;
+    border-radius: 5px;
+    margin: 15px;
+    font-size: 28px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+}
+
+#convert {
+    font-family: 'Merriweather', serif;
+    width: 12vw;
+    height: 5vw;
+    border: 2.2px solid black;
+    margin: 70px 0 20px 0;
+    font-size: 35px;
+    font-weight: 600;
+    background-color: rgb(18, 185, 144);
+    padding: 5px;
+    color: WHITE;
+    border-radius: 18px;
+    transition: all 0.5s ease;
+}
+
+#convert:hover {
+    background-color: rgb(48, 255, 29);
+    cursor: pointer;
+}
+
+#result {
+    background-color: rgb(255, 255, 255);
+    color: rgb(7, 17, 9);
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    border: 4px solid rgba(0, 0, 0, 0.514);
+    border-radius: 10px;
+    height: 9vh;
+    width: 15vw;
+    font-size: 35px;
+    font-weight: 550;
+}
